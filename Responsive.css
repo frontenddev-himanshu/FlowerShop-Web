@@ -1,0 +1,302 @@
+/* laptop screen */
+@media screen and (max-width:1366px) {
+
+    /* front page */
+    .front-content p {
+        width: 400px;
+    }
+
+    /* about section */
+    .about-content p {
+        font-size: 0.9rem;
+    }
+
+    /* service-section */
+    .service {
+        width: 250px;
+    }
+
+    /* product section */
+    .flower-box{
+        width: 260px;
+    }
+
+    .product-3{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    
+    .p-3{
+        width: 49%;
+        height: fit-content;
+    }
+    
+    .p-3 .flower-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .p-3 .flower-img img{
+        width: 300px;
+    }
+}
+
+
+
+
+/* mobile screen */
+@media screen and (max-width:765px) {
+
+    /* header */
+    nav {
+        width: 95%;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .nav-logo h1 {
+        font-size: 2rem;
+    }
+
+    .nav-use {
+        gap: 10px;
+    }
+
+    .nav-user a {
+        font-size: 1.4rem;
+    }
+
+    /* front page */
+    .front {
+        height: 50vh;
+    }
+
+    .front-container {
+        height: 42vh;
+    }
+
+    .front-content {
+        justify-content: start;
+        gap: 5px;
+        width: 95%;
+        padding-top: 50px;
+    }
+
+    .front-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .front-content span {
+        font-size: 1.2rem;
+    }
+
+    .front-content p {
+        display: none;
+    }
+
+    .front-content button {
+        width: 130px;
+        font-size: 0.9rem;
+    }
+
+    /* about section */
+    .about-container {
+        width: 100%;
+    }
+
+    .about-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-imgs {
+        padding-top: 15px;
+        flex-wrap: wrap;
+    }
+
+    .about-video{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-imgs video {
+        width: 380px;
+    }
+
+    .about-content {
+        align-items: center;
+        padding-left: 0px;
+        gap: 5px;
+    }
+
+    .about-content p {
+        text-align: center;
+    }
+
+    .about-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-content button {
+        font-size: 0.9rem;
+        width: 130px;
+    }
+
+    /* about section end*/
+
+
+
+
+
+    /* service-section */
+    .service-section {
+        height: 70vh;
+    }
+
+    .service-container {
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service {
+        width: 350px;
+    }
+    /* service-section end*/
+
+
+
+
+
+
+    /* product section */
+    .product-conatiner{
+        width: 100%;
+    }
+
+    .product-heading h1{
+        font-size: 3rem;
+    }
+
+    .product-2{
+        display: none;
+    }
+
+    .product-items{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .flower-box{
+        width: 350px;
+    }
+
+    .flower-box img{
+        width: 80%;
+    }
+
+    .flower-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-3{
+        display: none;
+    }
+
+    /* product section end*/
+
+
+
+
+
+
+    /* customer review */
+    .customer-container{
+        width: 100%;
+    }
+
+    .customer-heading h1{
+        font-size: 3rem;
+    }
+
+    .customer{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .customer-box{
+        width: 95%;
+    }
+    /* customer review end */
+
+
+
+
+
+
+    /* customer details */
+    .contact-conatiner {
+        width: 100%;
+    }
+
+    .customer-details{
+        width: 95%;
+        height: 50vh;
+    }
+
+    .details-box{
+        gap: 20px;
+    }
+
+    .details-box input{
+        width: 80%;
+        height: 40px;
+    }
+
+    .details-box textarea{
+        display: none;
+    }
+
+    .details-box button{
+        font-size: 0.9rem;
+    }
+
+    .contact-heading h1{
+        font-size: 3rem;
+    }
+    /* customer details end */
+
+
+
+
+    /* footer */
+    .footer-container{
+        width: 95%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-links{
+        width: 100%;
+        align-items: start;
+    }
+
+
+
+
+    /* copyright section */
+
+    .copyright-cotainer{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* copyright section end*/
+}
