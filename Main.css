@@ -583,3 +583,34 @@ h6 {
 }
 
 /* contact-us-section end*/
+
+
+
+
+
+/* whatsapp section */
+.whatsapp-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(0, 184, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    border: 1px #666666 solid;
+    transition: 0.30s linear all;
+}
+
+.whatsapp-logo:hover{
+    background-color: rgb(0, 140, 0);
+}
+
+.whatsapp-logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.2rem;
+}
